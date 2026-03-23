@@ -29,12 +29,14 @@ uv sync
 
 ### 3\. Weights Preparation
 
-Due to file size limits, please download the `.pt` models manually and place them in the root directory:
+Please download the following `.pt` files and place them in the project root directory:
 
-| Model | Target | Size | Link |
+| Model File | Target Objects | Size | Direct Download Link |
 | :--- | :--- | :--- | :--- |
-| `ppe_master.pt` | Helmets/Vests/PPE | \~10MB | [Download Here](https://huggingface.co/keremberke/yolov8n-protective-equipment-detection/resolve/main/best.pt) |
-| `fire_smoke.pt` | Fire/Smoke (XL) | 520MB | [Download Here](https://huggingface.co/keremberke/yolov8n-fire-detection/resolve/main/best.pt) |
+| **`ppe_master.pt`** | Helmets/Vests/PPE | ~10MB | [Direct Download](https://github.com/a-arun-kumar/Construction-Site-Safety-Detection/raw/master/models/ppe_master.pt) |
+| **`fire_smoke.pt`** | Fire & Smoke (XL) | 520MB | [Direct Download](https://huggingface.co/SvenN/YOLOv8-Fire-and-Smoke-Detection/resolve/main/best.pt?download=true) |
+
+> **Note**: If you download `best.pt` from the second link, please rename it to `fire_smoke.pt` to match the code.
 
 ### 4\. Run the Dashboard
 
