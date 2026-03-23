@@ -2,6 +2,12 @@
 
 A high-performance safety surveillance system tailored for construction sites. Powered by **YOLOv8/v11**, it provides real-time multi-model inference to ensure worker safety and fire prevention.
 
+## 📸 Preview
+
+![Detection Demo](images/demo.jpg)
+
+*Real-time fire detection and PPE compliance monitoring interface.*
+
 ## 🌟 Key Features
 
 - **Dual-Model Parallel Inference**: 
@@ -27,16 +33,16 @@ Manage dependencies effortlessly with `uv`:
 uv sync
 ```
 
-### 3\. Weights Preparation
+### 📥 Model Weights Download
 
 Please download the following `.pt` files and place them in the project root directory:
 
 | Model File | Target Objects | Size | Direct Download Link |
 | :--- | :--- | :--- | :--- |
-| **`ppe_master.pt`** | Helmets/Vests/PPE | ~10MB | [Direct Download](https://github.com/a-arun-kumar/Construction-Site-Safety-Detection/raw/master/models/ppe_master.pt) |
-| **`fire_smoke.pt`** | Fire & Smoke (XL) | 520MB | [Direct Download](https://huggingface.co/SvenN/YOLOv8-Fire-and-Smoke-Detection/resolve/main/best.pt?download=true) |
+| **`ppe_master.pt`** | Helmets/Vests/PPE | ~10MB | [Direct Download (GitHub)](https://raw.githubusercontent.com/a-arun-kumar/Construction-Site-Safety-Detection/master/models/ppe_master.pt) |
+| **`fire_smoke.pt`** | Fire & Smoke (XL) | 520MB | [Direct Download (HF)](https://huggingface.co/SvenN/YOLOv8-Fire-and-Smoke-Detection/resolve/main/best.pt) |
 
-> **Note**: If you download `best.pt` from the second link, please rename it to `fire_smoke.pt` to match the code.
+> **Note**: After downloading the fire model, rename `best.pt` to `fire_smoke.pt` to match the code.
 
 ### 4\. Run the Dashboard
 
