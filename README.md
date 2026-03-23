@@ -35,12 +35,9 @@ uv sync
 
 ### 📥 Model Weights Download
 
-Please download the following `.pt` files and place them in the project root directory:
-
-| Model File | Target Objects | Size | Direct Download Link |
-| :--- | :--- | :--- | :--- |
-| **`ppe_master.pt`** | Helmets/Vests/PPE | ~10MB | [Direct Download (GitHub)](https://raw.githubusercontent.com/a-arun-kumar/Construction-Site-Safety-Detection/master/models/ppe_master.pt) |
-| **`fire_smoke.pt`** | Fire & Smoke (XL) | 520MB | [Direct Download (HF)](https://huggingface.co/SvenN/YOLOv8-Fire-and-Smoke-Detection/resolve/main/best.pt) |
+模型文件,识别目标,大小,直接下载命令 (Arch 终端)
+ppe_master.pt,安全帽/防护服,~10MB,wget https://raw.githubusercontent.com/a-arun-kumar/Construction-Site-Safety-Detection/master/models/ppe_master.pt
+fire_smoke.pt,明火/烟雾,520MB,wget https://huggingface.co/SvenN/YOLOv8-Fire-and-Smoke-Detection/resolve/main/best.pt -O fire_smoke.pt
 
 > **Note**: After downloading the fire model, rename `best.pt` to `fire_smoke.pt` to match the code.
 
