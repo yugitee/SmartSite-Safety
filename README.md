@@ -36,7 +36,9 @@ uv sync
 ### 📥 Model Weights Download
 
 ppe_master.pt,~10 MB,https://raw.githubusercontent.com/a-arun-kumar/Construction-Site-Safety-Detection/master/models/ppe_master.pt
+
 fire_smoke.pt,520 MB https://huggingface.co/SvenN/YOLOv8-Fire-and-Smoke-Detection/resolve/main/best.pt
+https://huggingface.co/TommyNgx/YOLOv10-Fire-and-Smoke-Detection
 
 > **Note**: After downloading the fire model, rename `best.pt` to `fire_smoke.pt` to match the code.
 
